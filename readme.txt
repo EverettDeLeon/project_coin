@@ -1,34 +1,29 @@
---testing--
-init_investment amount by 1000
-445,949 - 1000
-587,992 - 2000
-730,035 - 3000
-872,078 - 4000
-1,014,121 - 5000
-1,156,163 - 6000
-1,298,206 - 7000
+Goal: 
+Write a program that can tell you the potential of long term investment.
 
-amount by 1% starting with 10
-445,949 - 10%
-664,413 - 11%
-992,885 - 12%
-1,486,835 - 13%
-2,229,435 - 14%
-3,345,186 - 15%
-5, 020, 107 - 16%
-7,531,593 = 17%
+What is it:
+I believe you could use crypto currencies, with such large short term 
+gains to speed up the process of compound interest. Treat weeks as years
+and your monthly investment as the capital to grown on. A consistent 
+investment combined with a minimum 10% growth per week, which is 
+a pretty conservative growth rate for a currency with potential. 
+Creates an environment where your money will soon build up extremely 
+fast.
 
-7000
-1000
-8
-13
 
-21239.58
+Logic: every week you have adds the growth percentage to the current
+balance. Every 4 weeks (a month) your routine investment also gets added
+to the current balance. 
 
-4940103.57
 
---end testing--
+Unfinished stuff:
+Pull data from coinbase
+Drop down menu to know what to pull from coinbase
+Include all market data
+Use market data to calculate probabilities based on market cap and potential growth
 
+
+----Never mind all this, just testing---
 
 dot 
 + 290.68
@@ -104,5 +99,5 @@ usdm
 
 
 
-4082.39 cash / profit = 3401.78 == 7.25%
+3171.53 cash / profit = 3401.78 == 7.25%
 started investing on the 8th
